@@ -1,8 +1,8 @@
-# oss-promote
+# 吆喝 yaohe
 
-开源项目一键合规宣传 —— 一个 Claude Code plugin。
+给你的开源项目吆喝一嗓子 —— 一个 Claude Code plugin。
 
-写完项目没人知道？宣传渠道很多（阮一峰周刊自荐、HelloGitHub、Show HN、V2EX…），但每个渠道格式不同、规则不同、还得一个个手动投。这个 skill 把这件事变成一条命令：
+写完项目没人知道？宣传渠道很多（阮一峰周刊自荐、HelloGitHub、Show HN、V2EX…），但每个渠道格式不同、规则不同，还得一个个手动投。吆喝把这件事变成一条命令：
 
 ```
 /promote <repo 路径或 owner/repo>
@@ -20,13 +20,13 @@
 
 ## 为什么"合规"是核心设计
 
-社区发帖型渠道反感机器发帖：HN 封 voting ring 连坐域名，Reddit 有 self-promotion 比例规则。所以本工具的边界是：**自动化提交只用于渠道方明确开放的自荐入口（issue/PR/表单），社区帖永远人工发**。这不是功能缺失，是产品原则。
+社区发帖型渠道反感机器发帖：HN 封 voting ring 连坐域名，Reddit 有 self-promotion 比例规则。所以吆喝的边界是：**自动化提交只用于渠道方明确开放的自荐入口（issue/PR/表单），社区帖永远人工发**。这不是功能缺失，是产品原则。
 
 ## 安装
 
 ```
-claude plugin marketplace add nmhjklnm/oss-promote
-claude plugin install oss-promote
+claude plugin marketplace add nmhjklnm/yaohe
+claude plugin install yaohe
 ```
 
 ## 渠道覆盖

@@ -1,6 +1,6 @@
 {
-  "name": "oss-promote",
+  "name": "yaohe",
   "version": "0.1.0",
-  "description": "One-command, rule-abiding promotion for your open-source project across CN & EN channels",
+  "description": "吆喝 — 给你的开源项目吆喝一嗓子。One-command, rule-abiding promotion across CN & EN channels",
   "author": { "name": "nmhjklnm" }
 }

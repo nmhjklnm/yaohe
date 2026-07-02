@@ -1,11 +1,11 @@
 {
-  "name": "oss-promote",
+  "name": "yaohe",
   "owner": { "name": "nmhjklnm" },
   "plugins": [
     {
-      "name": "oss-promote",
+      "name": "yaohe",
       "source": "./",
-      "description": "One-command, rule-abiding promotion for your open-source project across CN & EN channels"
+      "description": "吆喝 — 给你的开源项目吆喝一嗓子。One-command, rule-abiding promotion across CN & EN channels"
     }
   ]
 }
