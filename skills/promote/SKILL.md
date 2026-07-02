@@ -45,7 +45,7 @@ README 薄的判定（缺任一项即问用户补齐，不要编）：① 一句
 按渠道 frontmatter 的 `automatable` 字段：
 
 - **full**（issue/PR 型）：先 `gh auth status` 确认已登录（未登录 → 让用户 `gh auth login`，停在这里）→ 展示最终稿 → 用户确认一次 → `gh` CLI 提交 → 记录返回 URL。失败就报错停，不换渠道兜底。
-- **assisted**（网页表单型）：给出最终稿 + 提交 URL + 逐字段填写指引；有浏览器工具可代填但提交按钮由用户点。
+- **assisted**（网页表单型）：给出最终稿 + 提交 URL + 逐字段填写指引；Chrome 扩展已连接时按 `references/browser-assist.md` 流程代开页面、代填字段（登录和提交按钮永远归用户）。
 - **manual-only**（社区发帖型）:只交稿件 + 建议发帖时间（见渠道文件）+ 红线提醒。**任何情况下不代发**。
 
 ### 5. 记录与复盘
