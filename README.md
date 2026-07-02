@@ -1,6 +1,8 @@
 # 吆喝 yaohe
 
-给你的开源项目吆喝一嗓子 —— 一个 Claude Code plugin。
+给你的开源项目吆喝一嗓子，一个 Claude Code plugin。
+
+![yaohe](docs/assets/banner.png)
 
 写完项目没人知道？宣传渠道很多（阮一峰周刊自荐、HelloGitHub、Show HN、V2EX…），但每个渠道格式不同、规则不同，还得一个个手动投。吆喝把这件事变成一条命令：
 
