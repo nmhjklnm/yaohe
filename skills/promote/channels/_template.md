@@ -3,7 +3,7 @@ id: <channel-id>
 name: <渠道名>
 lang: cn | en
 automatable: full | assisted | manual-only
-submission_method: github-issue-comment | github-issue | github-pr | web-form | community-post
+submission_method: github-issue-comment | github-issue | github-pr | web-form | community-post | post-article
 target: <提交入口 URL 或 repo#issue，动态入口写发现方法>
 audience: <这个渠道的读者是谁>
 threshold: <收录门槛，无则写 none>
