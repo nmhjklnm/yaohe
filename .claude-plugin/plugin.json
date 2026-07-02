@@ -1,0 +1,6 @@
+{
+  "name": "oss-promote",
+  "version": "0.1.0",
+  "description": "One-command, rule-abiding promotion for your open-source project across CN & EN channels",
+  "author": { "name": "nmhjklnm" }
+}
