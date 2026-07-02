@@ -1,10 +1,7 @@
-# PROMO-LOG
+# PROMO-LOG — yaohe
 
-记录 oss-promote 项目本身的投递历史（dry-run 生成，未实际提交）。
-
-| 渠道 | 日期 | 稿件 | 提交 URL | 状态 |
+| channel | date | draft | url | status |
 |---|---|---|---|---|
-| ruanyf-weekly | 2026-07-03 | promo-drafts/ruanyf-weekly.md | - | draft |
-| githubdaily | 2026-07-03 | promo-drafts/githubdaily.md | - | draft |
-| hellogithub | 2026-07-03 | promo-drafts/hellogithub.md | - | draft |
-| show-hn | 2026-07-03 | promo-drafts/show-hn.md | - | draft |
+| ruanyf-weekly | 2026-07-03 | promo-drafts/ruanyf-weekly.md | https://github.com/ruanyf/weekly/issues/10545 | submitted |
+| githubdaily | 2026-07-03 | promo-drafts/githubdaily.md | https://github.com/GitHubDaily/GitHubDaily/issues/905 | submitted |
+| hellogithub | 2026-07-03 | promo-drafts/hellogithub.md | 等用户网页表单提交 | draft |
