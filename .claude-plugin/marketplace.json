@@ -1,0 +1,11 @@
+{
+  "name": "oss-promote",
+  "owner": { "name": "nmhjklnm" },
+  "plugins": [
+    {
+      "name": "oss-promote",
+      "source": "./",
+      "description": "One-command, rule-abiding promotion for your open-source project across CN & EN channels"
+    }
+  ]
+}
