@@ -1,6 +1,6 @@
-Title: 【开源自荐】吆喝（yaohe）：把开源项目宣传变成一条命令，按各渠道规则合规投递（Claude Code 插件）
+Title: 【开源自荐】吆喝（yaohe）：把开源项目宣传变成一条命令，按各渠道规则合规投递（一个 agent skill）
 
-吆喝是一个开源（MIT）的 Claude Code 插件，把「写完开源项目投哪儿、怎么投」这件事变成一条 `/promote` 命令，给你的项目吆喝一嗓子。
+吆喝是一个开源（MIT）的 skill，把「写完开源项目投哪儿、怎么投」这件事变成一条 `/promote` 命令，给你的项目吆喝一嗓子。
 
 项目地址：https://github.com/nmhjklnm/yaohe
 

@@ -2,7 +2,7 @@
 
 [中文](README.md) | English
 
-A Claude Code skill that lets your agent promote your open-source project across the internet.
+A skill that lets your AI agent promote your open-source project across the internet.
 
 ![yaohe](docs/assets/banner.png)
 

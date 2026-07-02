@@ -1,6 +1,6 @@
 # 吆喝 yaohe
 
-让 Agent 自动全网宣传你的开源项目 —— 一个 Claude Code skill。
+一个让 AI agent 自动全网宣传你的开源项目的 skill。
 
 ![yaohe](docs/assets/banner.png)
 
