@@ -2,11 +2,13 @@
 
 [中文](README.md) | English
 
-A skill that lets your AI agent promote your open-source project across the internet.
+A skill that promotes your open-source project for free, in one command. It knows which channels exist, and how to submit to each one.
 
 ![yaohe](docs/assets/banner.png)
 
-You wrote something and nobody knows it exists. There are plenty of channels to submit to (Hacker News, dev.to, awesome lists, newsletters...), but each one has its own format and rules, and submitting to all of them by hand is tedious. Yaohe ships with field-verified specs for 20 channels and turns the whole thing into one command you can run every time you cut a release:
+You wrote something and nobody knows it exists. What actually stops you isn't the submitting — it's two things: there are many channels (Hacker News, dev.to, awesome lists, HelloGitHub, ruanyf/weekly, newsletters...) and you don't know they exist; and even once you do, each one has its own format, rules, and rejection triggers you'd have to learn by trial and error.
+
+Yaohe does both for you: it collects 20 CN & EN channels and reverse-engineers each channel's submission rules into a spec file. What's left is one command, run every time you cut a release:
 
 ```
 /promote <repo path or owner/repo>
