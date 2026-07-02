@@ -56,6 +56,9 @@ gh issue create -R ruanyf/weekly \
 提交后 7-14 天检查是否上刊：
 
 ```bash
+# 1. 自己的 issue 是否已被处理（close ≠ 采用）
 gh api -X GET search/issues -f q='repo:ruanyf/weekly <项目名> in:title' --jq '.items[] | {number, state}'
-# 再在最近 2-3 期 docs/issue-*.md 里搜项目名确认
+# 2. 是否真上刊：拉最近 3 期正文 grep 项目名
+gh api repos/ruanyf/weekly/contents/docs --jq '[.[].name] | sort | .[-3:][]' \
+  | while read f; do gh api repos/ruanyf/weekly/contents/docs/$f --jq .content | base64 -d | grep -l "<项目名>" - >/dev/null && echo "HIT: $f"; done
 ```
