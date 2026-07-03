@@ -6,7 +6,7 @@ A skill that promotes your open-source project for free, in one command. It know
 
 ![yaohe](docs/assets/banner.png)
 
-You wrote something and nobody knows it exists. What actually stops you isn't the submitting — it's two things: there are many channels (Hacker News, dev.to, awesome lists, HelloGitHub, ruanyf/weekly, newsletters...) and you don't know they exist; and even once you do, each one has its own format, rules, and rejection triggers you'd have to learn by trial and error.
+You wrote something and nobody knows it exists. What actually stops you is usually two things: there are many channels (Hacker News, dev.to, awesome lists, HelloGitHub, ruanyf/weekly, newsletters...) and you don't know they exist; and even once you do, each one has its own format, rules, and rejection triggers you'd have to learn by trial and error.
 
 Yaohe does both for you: it collects 20 CN & EN channels and reverse-engineers each channel's submission rules into a spec file. What's left is one command, run every time you cut a release:
 
